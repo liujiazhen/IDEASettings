@@ -1,0 +1,6 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Java/Strings/Convert to raw string literal" />
+    <ignoreAction name="Java/Other/Use 'java.util.Objects.requireNonNull()' Expression" />
+  </component>
+</application>

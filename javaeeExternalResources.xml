@@ -1,0 +1,12 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="$USER_HOME$/.IntelliJIdea2019.1/system/extResources/b36fadae_mybatis-3-mapper.dtd" />
+    <resource url="http://www.springframework.org/schema/aop/spring-aop-4.2.xsd" location="$USER_HOME$/.IntelliJIdea2018.2/system/extResources/f0aba32_spring-aop-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans-4.2.xsd" location="$USER_HOME$/.IntelliJIdea2018.2/system/extResources/d831ce12_spring-beans-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/context/spring-context-4.2.xsd" location="$USER_HOME$/.IntelliJIdea2018.2/system/extResources/52b75f12_spring-context-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/task/spring-task-4.2.xsd" location="$USER_HOME$/.IntelliJIdea2018.2/system/extResources/ab83763e_spring-task-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/tool/spring-tool-4.2.xsd" location="$USER_HOME$/.IntelliJIdea2018.2/system/extResources/945c53e4_spring-tool-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/tx/spring-tx-4.2.xsd" location="$USER_HOME$/.IntelliJIdea2018.2/system/extResources/571df37c_spring-tx-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/util/spring-util-4.2.xsd" location="$USER_HOME$/.IntelliJIdea2018.2/system/extResources/12a3fdb8_spring-util-4.2.xsd" />
+  </component>
+</application>

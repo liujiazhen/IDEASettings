@@ -1,0 +1,12 @@
+<templateSet group="JiazhenLiu">
+  <template name="/*a" value="/**&#10; * $VAR1$ &#10; $params$* @return $returns$&#10; * @author Liu Jiazhen&#10; * creed: Talk is cheap, show me the code&#10; * @date $date$ $time$&#10; */" description="注释模板" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="groovyScript(&quot; &#9;def result='';   &#9;def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList();    &#9;for(i = 0; i &lt; params.size(); i++) {   &#9; &#9;&#9;if(i!=0)result+= ' * ';    &#9; &#9;&#9;result+='@param ' + params[i] + ((i &lt; (params.size() - 1)) ? '\\n' + '\\t' : '');    &#9;};     &#9;return result&quot;, methodParameters()) ———————————————— 版权声明：本文为CSDN博主「yuruixin_china」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。 原文链接：https://blog.csdn.net/yuruixin_china/article/details/80933835" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="returns" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,17 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="File '...\src\com\jbinfo\wms\hrp\servlet\HrpSocketService.java'" />
+    <option name="defaultScopeName" value="File '...\src\com\jbinfo\wms\hrp\servlet\HrpSocketService.java'" />
+    <option name="SEARCH_SCOPE" value="File '...\src\com\jbinfo\wms\hrp\servlet\HrpSocketService.java'" />
+    <mask>*.properties</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.js</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+    <mask>spring*.xml</mask>
+    <mask>*.java</mask>
+    <mask>*.xml</mask>
+  </component>
+</application>
