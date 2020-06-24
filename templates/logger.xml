@@ -1,0 +1,21 @@
+<templateSet group="logger">
+  <template name="logger" value="private static final Logger log = Logger.getLogger($class$.class);" description="logger Templates" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="li" value="log.info($info$);" description="log.info()" toReformat="false" toShortenFQNames="true">
+    <variable name="info" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="le" value="log.error($error$);" description="log.error();" toReformat="false" toShortenFQNames="true">
+    <variable name="error" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>
