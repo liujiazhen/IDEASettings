@@ -22,9 +22,13 @@
           <option name="url" value="http://192.168.0.6" />
           <option name="userName" value="liujiazhen@shanshoufu.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@192.168.0.6:newhope/newhope-connector.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\workspace2019\study_2019" />
+    <option name="cloneParentDir" value="F:\newhop" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
